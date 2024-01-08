@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family:'Figtree','sans-serif';
+}
+
+.card-container{
+  box-shadow: 8px 9px 0 -1px rgba(0,0,0,0.8) ;
+  border: 1px solid black;
+}
+
+.card{
+  gap:10px;
+ 
+}
+
+
+.user-info{
+  display:flex;
+  align-items:center;
+  gap:10px; 
+  margin-bottom:10px;
+}
